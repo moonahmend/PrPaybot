@@ -11,10 +11,10 @@ CALLBACK_URL = os.getenv('OXAPAY_CALLBACK_URL')
 RETURN_URL = os.getenv('OXAPAY_RETURN_URL')
 
 SUBSCRIPTION_PLANS = {
-    'sub_standard': {'name': 'Standard', 'price': 45},
-    'sub_gold': {'name': 'Gold', 'price': 72},
-    'sub_plus': {'name': 'Plus', 'price': 95},
-    'sub_platinum': {'name': 'Platinum', 'price': 145},
+    'sub_standard': {'name': 'Standard', 'price': 47},
+    'sub_gold': {'name': 'Gold', 'price': 74},
+    'sub_plus': {'name': 'Plus', 'price': 97},
+    'sub_platinum': {'name': 'Platinum', 'price': 147},
 }
 
 def get_plan_tokens(plan):
