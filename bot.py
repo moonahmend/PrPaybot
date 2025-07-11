@@ -35,11 +35,11 @@ def create_or_get_user(telegram_id, username, full_name):
         print(f"Database error: {e}")
 
 packages = {
-    '100': {'tokens': 100, 'amount': 10, 'desc': 'Starter Pack'},
-    '250': {'tokens': 250, 'amount': 25, 'desc': 'Basic Pack'},
-    '550': {'tokens': 550, 'amount': 55, 'desc': 'Standard Pack'},
-    '1000': {'tokens': 1000, 'amount': 100, 'desc': 'Premium Pack'},
-    '1500': {'tokens': 1500, 'amount': 155, 'desc': 'Ultimate Pack'}
+    '100': {'tokens': 100, 'amount': 12, 'desc': 'Starter Pack'},
+    '250': {'tokens': 250, 'amount': 27, 'desc': 'Basic Pack'},
+    '550': {'tokens': 550, 'amount': 52, 'desc': 'Standard Pack'},
+    '1000': {'tokens': 1000, 'amount': 97, 'desc': 'Premium Pack'},
+    '1500': {'tokens': 1500, 'amount': 152, 'desc': 'Ultimate Pack'}
 }
 
 async def start(update, context):
