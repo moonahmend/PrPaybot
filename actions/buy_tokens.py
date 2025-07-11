@@ -10,11 +10,11 @@ CALLBACK_URL = os.getenv('OXAPAY_CALLBACK_URL')
 RETURN_URL = os.getenv('OXAPAY_RETURN_URL')
 
 TOKEN_PACKAGES = [
-    {"tokens": 100, "price": 10},
-    {"tokens": 250, "price": 25},
-    {"tokens": 550, "price": 50},
-    {"tokens": 1000, "price": 95},
-    {"tokens": 1500, "price": 150},
+    {"tokens": 100, "price": 12},
+    {"tokens": 250, "price": 27},
+    {"tokens": 550, "price": 52},
+    {"tokens": 1000, "price": 97},
+    {"tokens": 1500, "price": 152},
 ]
 
 async def buy_tokens(update, context):
